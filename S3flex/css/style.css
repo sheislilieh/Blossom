@@ -1,0 +1,145 @@
+.unocuadro {
+    background-color: hsl(179, 100%, 13%);
+    width: 15vw;
+    height: 15vw;
+    margin: 1rem;
+}
+
+.doscuadro{
+    background-color: hsl(261, 100%, 13%);
+    width: 15vw;
+    height: 15vw;
+    margin: 1rem;
+}
+
+.trescuadro{
+    background-color: hsl(325, 72%, 37%);
+    width: 15vw;
+    height: 15vw;
+    margin: 1rem;
+}
+
+.cuatrocuadro{
+    background-color: hsl(36, 81%, 50%);
+    width: 15vw;
+    height: 15vw;
+    margin: 1rem;
+}
+
+.flexstar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flexend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*rowreverse*/
+
+.flexstar1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.flexend1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.center1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.space-between1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.space-around1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.space-evenly1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+/*column*/
+
+.flexstar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem;
+}
+
+.flexend2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+
+.center2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.space-between2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.space-around2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.space-evenly2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 2rem;
+}

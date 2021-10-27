@@ -7,9 +7,6 @@
     --white: hsl(334, 30%, 95%);
     font-size: 16px;
 
-    div {
-        background-color: hsl(154, 59%, 51%);
-      }
     body {
         display table-layout: 100%;
         font-family: 'Poppins', sans-serif;
