@@ -1,0 +1,129 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: url(../img/bg-intro-desktop.png) center center no-repeat;
+  background-size: cover;
+  background-color: hsl(0, 100%, 74%) ;
+  color: white;
+}
+
+.spacio1{
+  max-width: 540px;
+  width: 45%;
+}
+
+.texto1{
+  font-size: 48px;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+.parrafo1{
+  
+}
+
+.spacio2{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+}
+
+.button-morado{
+  margin-bottom: 24px;
+  padding: 20px 75px 17px 75px;
+  border-radius: 10px;
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  box-shadow: 0 8px 0 0 hsla(249, 10%, 26%,0.2);
+}
+
+.sign-up--input-list{
+  padding: 40px;
+  border-radius: 7px;
+  background-color: white;
+  color: red;
+}
+
+.input{
+  position: relative;
+  margin-bottom: 17px;
+}
+
+.text-form{
+  width: 100%;
+  padding: 17px 30px;
+  border-radius: 7px;
+  border: 1px solid hsla(0, 0%, 0%, 0.2);
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+
+.tverde{
+  width: 100%;
+  padding: 20px 10px 16px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: hsla(154, 59%, 51%, 0.8);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow:0 4px 0 0 hsl(154, 59%, 51%);
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.tverde:hover{
+  opacity: 0.8;
+}
+.p3{
+  text-align: center;
+  font-size: 11px;
+  color: hsl(246, 25%, 77%);
+  font-weight: 400;
+}
+
+  main{
+      padding: 80px 24px 70px 24px;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+
+  .parrafo1{
+      margin-bottom: 35px;
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.6;
+  }
+
+  .texto1{
+      font-size: 28px;
+      line-height: 1.4;
+  }
+
+  .blanco{
+      width: 100%;
+      padding: 0;
+  }
+
+  .sign-up--input-list{
+      padding: 25px;
+  }
+}
